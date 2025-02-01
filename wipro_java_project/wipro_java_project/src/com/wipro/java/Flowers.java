@@ -25,7 +25,7 @@ public class Flowers {
 	}
 	public void display()
 	{
-		System.out.println("flower name"+name+"flower color"+fcolor)
+		System.out.println("flower name"+name+"flower color"+color);
 	}
 	
 	
@@ -33,7 +33,12 @@ public class Flowers {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
+		Flowers f1=new Flowers("rose","pink");
+		Flowers f2=new Flowers("lotus","pink");
+		f1.display();
+		f2.display();
 		// TODO Auto-generated method stub
 
 	}
