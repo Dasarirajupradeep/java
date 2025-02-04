@@ -27,15 +27,7 @@ public class Flowers {
 	{
 		System.out.println("flower name"+name+"flower color"+color);
 	}
-	
-	public int Data() {
-		int i = 2;
-		return i;
-		
-	}
-	static {
-		System.out.println("hello");
-	}
+
 	
 
 	/**
