@@ -6,7 +6,6 @@ public class Oops {
 		//Polymorphism: Both Book Magazine objects are treated as LibraryItem
 		LibraryItem book = new Book("Java Programming", "King Carl");
 		LibraryItem magazine =new Magazine("Take Monthly", 50);
-	    
 		// calling the displayDetails() method (Demonstrating Polymorphism)
 		book.displayDetails();
 		magazine.dispalyDetails();
