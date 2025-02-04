@@ -21,9 +21,9 @@ public class Developer extends Employee {
 	         employee.setName("Pradeep");
 	         employee.setSalary(25000f);
 	      
-	         System.out.println( employee.getEmpid());
-	         System.out.println( employee.getName());
-	         System.out.println( employee.getSalary());
+	         System.out.println(employee.getEmpid());
+	         System.out.println(employee.getName());
+	         System.out.println(employee.getSalary());
 	    }
 	}
 
