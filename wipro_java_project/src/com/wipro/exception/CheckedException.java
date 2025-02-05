@@ -11,6 +11,7 @@ public class CheckedException {
             System.out.println("Caught Checked Exception: " + e.getMessage());
         }
     }
+	
 
     // Method that throws a checked exception
     public static void throwIOException() throws IOException {

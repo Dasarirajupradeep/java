@@ -25,6 +25,7 @@ public class Animal {
     	System.out.println("Sound : "+Sound);
     	
     }
+    
 		
 	}
 

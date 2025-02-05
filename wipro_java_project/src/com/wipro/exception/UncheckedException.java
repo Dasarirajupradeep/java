@@ -10,6 +10,7 @@ public class UncheckedException {
         }
     }
 
+
     // Method that throws an unchecked exception
     public static int divideByZero() {
         return 10 / 0;  // This will throw ArithmeticException
