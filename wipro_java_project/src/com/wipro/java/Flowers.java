@@ -10,6 +10,7 @@ public class Flowers {
 	String name;
 	String color;
 	
+	
 
 	/**
 	 * 
@@ -27,6 +28,7 @@ public class Flowers {
 	{
 		System.out.println("flower name"+name+"flower color"+color);
 	}
+      
 	
 	
 
@@ -40,7 +42,7 @@ public class Flowers {
 		f1.display();
 		f2.display();
 		// TODO Auto-generated method stub
-
+		
 	}
 
 }
