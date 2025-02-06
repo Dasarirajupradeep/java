@@ -1,15 +1,14 @@
 package com.wipro.java.collections;
-
 import java.util.*;
 
-public class Collections {
+public class CollectionsExample {
 	// List Operations
     private List<Integer> myList = new ArrayList<>();
 
     // Set Operations
     private Set<Integer> mySet = new HashSet<>();
 
-    // Map Operations (Dictionary)
+    // Map Operations 
     private Map<String, Integer> myMap = new HashMap<>();
 
     // List Operations
@@ -40,7 +39,7 @@ public class Collections {
         System.out.println("Does the set contain 1? " + mySet.contains(1));
     }
 
-    // Map (Dictionary) Operations
+    // Map Operations
     public void mapOperations() {
         myMap.put("John", 25);  // Add key-value pair
         myMap.put("Alice", 30);
@@ -57,7 +56,7 @@ public class Collections {
     }
 
     public static void main(String[] args) {
-        Collections collectionsExample = new Collections();
+        CollectionsExample collectionsExample = new CollectionsExample();
 
         // Perform operations on all collections
         System.out.println("------ List Operations ------");
